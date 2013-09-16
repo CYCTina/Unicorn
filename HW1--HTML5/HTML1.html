@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+
+<script src="javascript.js">
+	function ExitMsg()
+	{
+		alert(" Thank you for viewing my profile! : ) ");
+	
+	}
+</script>
+
+
+<style>
+		section
+		{
+			background-color:#D6EBFF;
+			border-style:1px solid black;
+			width:inherit;
+		}
+
+		article
+		{
+			margin-bottom:30px;
+		}
+
+		article section
+		{
+			margin-bottom:20px;
+		}
+
+		nav
+		{
+			margin-bottom:25px;
+		}
+
+		.link
+		{
+			color:blue;
+			font-size:15px;
+			text-decoration:underline;
+		}
+
+		#pgFooter
+		{
+			color:gray;
+			margin-top:50px;
+		}
+
+</style>
+
+<html>
+
+		<header>
+			<h1>My Programming Experience</h1>
+		</header>
+
+		<nav style="margin-bottom:20px;">
+			<a href="About.html"><span class="link">About</span></a>
+			<a href="Portfolio.html"><span class="link">Portfolio</span></a>
+			<a href="Contact.html" target="_blank"><span class="link">Contact</span></a>
+		</nav>
+
+		<article itemscope itemtype="http://schema.org/ItemList">
+			
+			<section>
+				<header itemprop="name">Front End Development</header>
+				<ul>
+					<li itemprop="itemListElement">CSS3</li>
+					<li itemprop="itemListElement">HTML5</li>
+					<li itemprop="itemListElement">JavaScript</li>
+				</ul>
+				
+			</section>
+			<section>
+				<header itemprop="name">Back End Development</header>
+				<ul>
+					<li itemprop="itemListElement">VB.NET</li>
+					<li itemprop="itemListElement">ASP.NET</li>
+					<li itemprop="itemListElement">Ruby on Rails</li>
+				</ul>	
+			</section>
+
+
+		</article>
+
+		<aside itemscope itemtype="http://schema.org/Person">
+			<div itemprop="email">Email: tinachen.yun@gmail.com</div>
+			<div itemprop="telephone">Phone: 206-123-456</div>
+		</aside>
+
+		<footer ID="pgFooter">
+			<div>Author: Tina Chen</div>
+			<div>Last Updated: <time datetime="2013-09-15 8:38">September 15th</time></div>
+		</footer>
+
+</html>
