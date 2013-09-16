@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
 
-<style>
-
-	.tbxWidth
-	{
-		width:400px;
-	}
-
-</style>
 
 <html>
 	<head>
@@ -17,10 +9,14 @@
 	</head>
 
 	<body>
-		<div>Your Name</div><input type="text" name="name" class="tbxWidth" required>
-		<div>Your Email</div><input type="email" name="email" class="tbxWidth" pattern="[^ @]*@[^ @]*" required>
-		<div>Title</div><input type="text" name="title" class="tbxWidth" required>
-		<div>Message</div><input type="text" name="message" style="height:200px; width:400px;" required>
+		<div for="iname">Your Name</div>
+		<input type="text" name="name" ID="iname" required>
+		<div for="iemail">Your Email</div>
+		<input type="email" name="email" ID="iemail" pattern="[^ @]*@[^ @]*" required>
+		<div for="ititle">Title</div>
+		<input type="text" name="title" iname="ititle" required>
+		<div for="imsg">Message</div>
+		<input type="text" name="message" iD="imsg" required>
 		</br>
 		</br>
 		<div><input type="submit" Value="Submit"></div>
